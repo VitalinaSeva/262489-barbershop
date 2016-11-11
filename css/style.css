@@ -6,6 +6,10 @@ body {
   font-family: "PT Sans Narrow Bold", "Arial", sans-serif;
 }
 
+/*ЛЕША, Я ПОКА ЗАБРОСИЛА БАРБЕРШОП, ИБО КАПЕЦ КАК СИЛЬНО НЕ УСПЕВАЮ.
+НАДЕЮСЬ, ЭТО НЕ КРИТИЧНО, ПО КРАЙНЕЙ МЕРЕ НА ВЕБИНАРЕ ТАК ГОВОРЯТ.
+ВНЕСЛА ВОТ ТАКОЕ ИСПРАВЛЕНИЕ, ЧТОБЫ ОТПРАВИТЬ ПУЛРЕКВЕСТ И ПОЛУЧИТЬ ЗАЧЕТ. :) */
+
 h1 {
   font-size: 30px;
   line-height: 42px;
@@ -22,18 +26,18 @@ h2 {
   outline: 1px solid green;
 }
 
-.container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .container {
   width: 960px;
   margin: 0 auto;
   padding: 0 10px;
   /* Только для оформления сетки */
   outline: 1px solid pink;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .logo {
